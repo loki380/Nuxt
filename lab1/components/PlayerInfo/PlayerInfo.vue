@@ -6,12 +6,11 @@
 </template>
 
 <script>
-import BigImage from "../Gallery/BigImage.vue";
 import Modal from "../Modal/Modal.vue";
 
 export default {
   name: "PlayerInfo",
-  components: { BigImage, Modal },
+  components: { Modal },
   props: {
     player: {
       name: {
@@ -37,14 +36,12 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 150px;
-  height: 150px;
   margin: 0.5rem;
 }
 
 img {
-  width: 100%;
-  height: 100%;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
 }
 </style>

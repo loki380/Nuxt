@@ -28,8 +28,13 @@ nav {
 }
 
 .navItem {
+  padding: 1rem;
     text-decoration: none;
     color: red;
+}
+
+.navItem:hover {
+  border: 1px solid red;
 }
 
 .logo {

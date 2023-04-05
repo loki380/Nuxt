@@ -2,7 +2,7 @@
     <div>
       <TopNav/>
       <h1>Mecze</h1>
-      <button @click="showInfo">Kliknij mnie</button>
+      <p>Już wkrótce...</p>
     </div>
   </template>
   
