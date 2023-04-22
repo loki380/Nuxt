@@ -5,6 +5,7 @@
     <NuxtLink class="navItem" to="/players">Zawodnicy</NuxtLink>
     <NuxtLink class="navItem" to="/matches">Mecze</NuxtLink>
     <NuxtLink class="navItem" :to="'/players/'+playerId">Gracz 12345</NuxtLink>
+    <NuxtLink class="navItem" to="/nasa">Nasa</NuxtLink>
   </nav>
 </template>
 
