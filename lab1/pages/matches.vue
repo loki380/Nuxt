@@ -1,6 +1,5 @@
 <template>
     <div>
-      <TopNav/>
       <h1>Mecze</h1>
       <p>Już wkrótce...</p>
     </div>

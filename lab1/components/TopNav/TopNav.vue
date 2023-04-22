@@ -4,13 +4,18 @@
     <NuxtLink class="navItem" to="/">Strona główna</NuxtLink>
     <NuxtLink class="navItem" to="/players">Zawodnicy</NuxtLink>
     <NuxtLink class="navItem" to="/matches">Mecze</NuxtLink>
+    <NuxtLink class="navItem" :to="'/players/'+playerId">Gracz 12345</NuxtLink>
   </nav>
 </template>
 
 <script>
 export default {
   name: "NavPage",
-
+  data() {
+    return {
+      playerId: "12345"
+    }
+  }
 };
 </script>
 
