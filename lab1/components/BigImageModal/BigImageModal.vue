@@ -25,7 +25,6 @@ export default {
   },
   created() {
     this.$nuxt.$on("showBigImageModal", (url) => {
-        console.log(url);
         this.show = true;
         this.imageUrl = url;
     });
@@ -44,7 +43,8 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 600px;
+  width: 500px;
+  height: 500px;
   margin: 0px auto;
   padding: 20px;
   background-color: #fff;
